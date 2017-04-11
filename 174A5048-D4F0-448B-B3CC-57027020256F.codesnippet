@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>addsegment</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UISegmentedControl *segment = [[UISegmentedControl alloc] initWithItems:@[@"&lt;#名字#&gt;",@"&lt;#名字#&gt;",@"&lt;#名字#&gt;"]];
+    segment.tintColor = [UIColor whiteColor];
+    segment.frame = CGRectMake(W /4, 0, KWith - 120, 30);
+    [segment addTarget:self action:@selector(&lt;#名字#&gt;:) forControlEvents:UIControlEventValueChanged];
+    segment.selectedSegmentIndex = 0;
+    self.navigationItem.titleView = segment;
+    //设置字体属性
+    NSDictionary *dic = @{NSFontAttributeName:[UIFont systemFontOfSize:16.0f]};
+    [segment setTitleTextAttributes:dic forState:UIControlStateNormal];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>174A5048-D4F0-448B-B3CC-57027020256F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>addsegment</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>addsegment</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

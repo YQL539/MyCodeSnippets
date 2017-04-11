@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Addanimauiview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#UIImageView#&gt;.animationImages = pAnimalArray;
+            m_pAnimalImageView.animationDuration = 0.5;
+            m_pAnimalImageView.animationRepeatCount = 0;
+            [m_pAnimalImageView startAnimating];
+            [m_pAnimalImageView stopAnimating];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A05B1356-5742-4063-A0B0-71C4A4C1BB41</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Addanimauiview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Addanimauiview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

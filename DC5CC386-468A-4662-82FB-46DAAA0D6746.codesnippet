@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>getexception</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassInterfaceMethods</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//绑定捕捉异常的函数，当程序崩溃时，会先调用这个函数。
+//    在application didFinishLaunching中调用NSSetUncaughtExceptionHandler(&amp;getException);
+void getException(NSException *exception){
+    NSLog(@"名字--%@",exception.name);
+    NSLog(@"原因--%@",exception.reason);
+    NSLog(@"用户信息--%@",exception.userInfo);
+    NSLog(@"栈内存地址--%@",exception.callStackReturnAddresses);
+    NSLog(@"栈描述--%@",exception.callStackSymbols);
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DC5CC386-468A-4662-82FB-46DAAA0D6746</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>getexception</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>getexception</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
